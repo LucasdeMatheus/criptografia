@@ -32,18 +32,18 @@
 mensagem: hello
 <br>chave: 3
 <br>criptografia: khoor</p>
+
 <br>
 
 ### output:
 <p>
-<img loading="lazy" src="https://github.com/LucasdeMatheus/criptografia/assets/134244848/4a46b768-7c93-41c6-bb09-9844f230688b"width=500/>
+<img loading="lazy" src="https://github.com/LucasdeMatheus/criptografia/assets/134244848/5fe26bdf-5896-458e-b0a7-69b323022c00"width=500/>
 <br>
  
 </p>
 <br>
 
 ## Cifra de Vigenere
-<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20ANDAMENTO&labelColor=%2339362C&color=%23B89931&style=for-the-badge" />
 
 ### Descrição
 <p>A Cifra de Vigenère é uma técnica de criptografia que utiliza uma palavra-chave para determinar o deslocamento de cada letra do texto, tornando a cifra mais complexa e segura do que a Cifra de César.</p>
@@ -73,7 +73,7 @@ mensagem: hello
 ### output:
 
  <p>
-<img loading="lazy" src="https://github.com/LucasdeMatheus/criptografia/assets/134244848/603e1a9e-915e-461d-a208-cc8ab1c8fddf"width=500/>
+<img loading="lazy" src="https://github.com/LucasdeMatheus/criptografia/assets/134244848/c4faaaf1-dcc1-4e05-8066-e67f4d4c964f"width=500/>
 <br>
  </p>
 
@@ -96,7 +96,6 @@ Criptografia:
 
 ### Demonstração
 
-
 <p>
 mensagem: HELLOWORLD
 <br>chave: 3
@@ -105,7 +104,7 @@ mensagem: HELLOWORLD
 
 ### output:
 <p>
-<img loading="lazy" src="https://github.com/LucasdeMatheus/criptografia/assets/134244848/b97c1d60-741d-4415-a332-799cb189d770"width=500/>
+<img loading="lazy" src="https://github.com/LucasdeMatheus/criptografia/assets/134244848/64382468-a9bd-4946-9e18-b6b1211ea224"width=500/>
 
 # Tecnologias Utilizadas
 
