@@ -17,6 +17,7 @@
   * [Cifra de Cesar](#cifra-de-cesar)
   * [Cifra de Vigenere](#cifra-de-vigenere)
   * [Cifra de Rail Fence](#cifra-de-rail-fence)
+  * [Cifra de Play Fair](#cifra-de-play-fair)
 ## Cifra de Cesar
 ### Descrição
 <p>A Cifra de Cesar é uma técnica de criptografia simples onde cada letra do texto é deslocada um número fixo de posições no alfabeto.
@@ -105,6 +106,45 @@ mensagem: HELLOWORLD
 ### output:
 <p>
 <img loading="lazy" src="https://github.com/LucasdeMatheus/criptografia/assets/134244848/64382468-a9bd-4946-9e18-b6b1211ea224"width=500/>
+
+## Cifra de Play Fair
+
+Descrição:
+A cifra de Playfair é um método de criptografia de substituição poligráfica que opera em pares de letras. Ela foi desenvolvida por Charles Wheatstone em 1854, mas foi popularizada por Lyon Playfair. Ao contrário das cifras de substituição simples, a cifra de Playfair substitui pares de letras, aumentando a segurança da criptografia.
+
+Lógica da Cifra de Playfair:
+
+Definição da Chave:
+
+Escolha uma palavra ou frase como chave. Remova letras duplicadas e substitua 'J' por 'I' para caber na matriz 5x5.
+
+Criação da Matriz 5x5:
+
+Preencha a matriz 5x5 com a chave, seguida pelas letras restantes do alfabeto que não estão na chave.
+
+Preparação do Texto:
+
+Remova espaços e converta todas as letras para maiúsculas. Divida o texto em pares de letras, inserindo 'X' entre letras duplicadas e no final, se necessário.
+
+### Criptografia:
+
+1. Para cada par de letras, use as regras de substituição da cifra de Playfair:
+2. Se as letras estão na mesma linha, substitua cada letra pela letra imediatamente à direita.
+3. Se as letras estão na mesma coluna, substitua cada letra pela letra imediatamente abaixo.
+4. Se as letras formam um retângulo, substitua cada letra pela letra na mesma linha da outra letra do par.
+
+### Demonstração
+
+mensagem: hello World
+chave: informatica
+criptografia: KGQVSIYNIUGV
+
+### output:
+
+<p>
+<img loading="lazy" src="https://github.com/LucasdeMatheus/criptografia/assets/134244848/21cd17d0-81f4-4a4e-bbaf-beeb72367848"width=500/>
+
+Obs: nesta criptografia, optei não adicionar funcionalidade para remover a letra X para evitar bugs com palavras que possuem X.
 
 # Tecnologias Utilizadas
 
